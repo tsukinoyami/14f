@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   botonNo.addEventListener('click', changePosition);
   botonNo.addEventListener('mouseover', changePosition);
   botonNo.addEventListener('touchstart', changePosition);
-  // Make siClick globally accessible
+
   function siClick() {
     document.getElementsByTagName('h1')[0].innerHTML = 'awww que linda! teamo <3 \n redirigiendo a tu sorpresita...';
     setTimeout(function() {
